@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet" />
+    <title>Accessories Page</title>
+</head>
+
+
+<style>
+body {
+  font-family: Kanit;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-position: center;
+overflow-x:hidden;
+
+}
+
+header {
+  font-family: Kanit;
+  width: 100%;
+  height: 150px;
+  background-color: #000000;
+  margin: 0;
+
+}
+
+header .container {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+  margin-right: 25px;
+  font-size: 16px;
+  color: #fff;
+}
+
+nav {
+  float: right;
+  line-height: 150px;
+  font-size: 1.4em;
+  margin-right: 25px;
+  margin-bottom:15px;
+}
+
+.page-title {
+  width: 100%;
+  height: 100px;
+  color: #fff;
+  display: flex;
+  font-family: 'Roboto Condensed';
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 900;
+  border-bottom: 1px solid green;
+overflow-x:hidden;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+overflow-x:hidden;
+
+}
+
+.box {
+  margin-top: 50px;
+  width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 6px 15px 0px rgba(0, 128, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom:50px;
+}
+
+.box img {
+  max-width: 200px;
+}
+
+.box h3 {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #000000;
+  padding: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+overflow-x:hidden;
+
+}
+
+.footer-column {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+overflow-x:hidden;
+
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 400px;
+}
+
+.bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/footerBack.png');
+  background-size: cover;
+  background-position: center;
+overflow-x:hidden;
+
+}
+
+.footer-links {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: disc;
+  margin-left:50px;
+}
+
+.footer-list li {
+  margin-bottom: 25px;
+}
+
+.footer-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.footer-list li a:hover {
+  color: #fff;
+}
+
+.social-icons {
+  background:#000000;
+  padding-top:25px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+overflow-x:hidden;
+
+}
+
+.copyrights {
+  color: #fff;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+overflow-x:hidden;
+ background:#000000;
+}
+.breaker
+{
+  border-top: 1px solid green;
+width:100%;
+margin-top:50px;
+
+}
+.tContainer
+{
+font-size:30px;
+color:#fff;
+margin-left:20%;
+max-width:80%;
+overflow-x:hidden;
+
+}
+.box:hover {
+  box-shadow: 4px 6px 15px 0px rgba(120, 229, 52, 0.6);
+  transition: 0.6s;
+  cursor: pointer;
+}
+p.footer-text {
+  font-size: 40px;
+  margin-left:-5%;
+  margin-top:-50px;
+}
+@media (max-width: 1280px) {
+
+  header {
+    height: auto;
+    text-align: center;
+  }
+
+  header .container {
+    width: 100%;
+    text-align: center;
+  }
+  header a
+   {
+ 
+    padding-bottom: 10px;
+ 
+}
+  nav {
+    float: none;
+    line-height: normal;
+    margin: 10px 0;
+  }
+
+  a {
+    display: block;
+    margin: 10px 0;
+    font-size: 1em;
+  }
+
+  .page-title {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+.tContainer
+{
+max-width:100%;
+    margin-left: 50px;
+}
+  .box {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .box img {
+    max-width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    width:100%;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  .footer-logo img {
+    height: auto;
+    max-width: 100%;
+  }
+ul.footer-list {
+  width: 100%;
+  margin-top: 50px;
+}
+
+  .social-icons {
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction:column
+  }
+
+  .social-icon {
+    margin: 5px;
+  }
+
+  .copyrights {
+    font-size: 0.8em;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+
+</style>
+
+
+<body>
+
+<header>
+  <div class="container">
+    <img class="logoImg" src="images/logo 1.png" alt="Logo"> <!-- Logo image -->
+    <nav>
+<a href="Home.html">Home</a>
+<a href="Hot.html">Hot Wheels</a>
+<a href="Event.html">Events</a>
+<a href="feedback.html">Feedback</a>
+<a href="accessories.html">Accessories</a>
+<a href="other-vehicles.html">Other Vehicles</a>
+<a href="performance-oil.html">Performance Oil</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Page Title Section -->
+<section class="page-title">
+  ACCESSORIES
+</section>
+
+<section class="flex-container">
+  <div class="box">
+    <img src="images/47 Liter.png">
+    <h3>KQR™ 47 Top Case</h3>
+  </div>
+  <div class="box">
+    <img src="images/Ninja Cover.png">
+    <h3>Deluxe Ninja® Cover</h3>
+  </div>
+  <div class="box">
+    <img src="images/GPS Mount.png">
+    <h3>GPS Mount</h3>
+  </div>
+  <div class="box box-2">
+    <img src="images/Ergo fit.png">
+    <h3>ERGO-FIT® Extended Seat</h3>
+  </div>
+  <div class="box box-2">
+    <img src="images/Large Windshield.png">
+    <h3>Large WindShield</h3>
+  </div>
+</section>
+
+<div class="footer">
+    <div class="footer-column">
+        <div class="footer-logo">
+            <a href="Home.html">
+                <img src="images/logo 2.png" alt="Kawasaki Logo">
+
+            </a>
+            <p class="footer-text">Kawasaki</p>
+
+        </div>
+    </div>
+    <div class="footer-column bg">
+        <div class="footer-links">
+            <ul class="footer-list">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Hot.html">Hot Wheels</a></li>
+                <li><a href="Event.html">Events</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="social-icons">
+  <a href="https://www.facebook.com" target="_blank" class="social-icon">
+    <img src="images/fb.png" alt="Facebook">
+  </a>
+  <a href="https://www.twitter.com" target="_blank" class="social-icon">
+    <img src="images/tg.png" alt="Twitter">
+  </a>
+  <a href="https://www.instagram.com" target="_blank" class="social-icon">
+    <img src="images/ig.png" alt="Instagram">
+  </a>
+  <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+    <img src="images/x.png" alt="LinkedIn">
+  </a>
+
+</div>
+<div class="copyrights">
+@2025 Copyright claim
+</div>
+
+</body>
+</html>
